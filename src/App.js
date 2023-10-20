@@ -36,7 +36,7 @@ function reducer(state, action) {
 
     case ACTIONS.CLEAR:
       return {
-        ...state,
+        
         currentOperend: "",
       };
 
